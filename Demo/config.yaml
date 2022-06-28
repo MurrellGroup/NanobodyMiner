@@ -1,0 +1,23 @@
+files:
+  - label: "TyBaseline"
+    filename: "Fastq/TyBaseline.fastq"
+  - label: "TyRBDbio"
+    filename: "Fastq/RBD-bio-P1_S2_L001_R1_001.fastq.merged.fastq"
+  - label: "TyRBDflag"
+    filename: "FastQ/RBD-flag-P1_S3_L001_R1_001.fastq.merged.fastq"
+
+primers:
+  fwd: "CTCGCGGCCCAGCCGGCCATGGCCGGCCCGGGAGCGGCCGCT"
+  rev: "ACCGGCGCACCACTAGTGCA"
+  
+baseline: "TyBaseline"
+
+select_candidates_from:
+  - label: "TyRBDbio"
+  - label: "TyRBDflag"
+
+min_count_thresh: 5
+
+nanobody_MSA: "../Panels/NBprofileMSA.fasta"
+
+variant_whitelist: "special.csv"
