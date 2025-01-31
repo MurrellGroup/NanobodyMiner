@@ -1,6 +1,6 @@
 # NanobodyMiner
 
-This git repo contains a Julia pipeline for processing Alpaca nanobody phage libraries. This code is under development, and does not yet have a license.
+This git repo contains a Julia pipeline for processing Alpaca nanobody phage libraries.
 
 ## Installation
 Clone the repo. Go to the directory you wish to install to, and:
